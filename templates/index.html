@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nelson Birthday</title>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+<div>
+    <div class="header">
+        Nelson Birthday open invitation<br>
+        1<sup>st</sup> April 2019
+    </div>
+
+    <div class="main_section">
+        <form>
+            <div class="form">
+                <select name="request_type" id="request_type" onchange="select_form();">
+                    <option value="1">Named Guest</option>
+                    <option value="0">Unnamed Guest</option>
+                </select>
+            </div>
+            <div class="anonymus-form, form">
+                <form>
+                    <label>
+                        Enter a random number
+                    </label>
+                    <input type="number" name="random number" required="required">
+                    <label>
+                        Reserve for
+                    </label>
+                    <input type="number" max="2" min="1" value="1">
+                    <input type="Submit" name="submit">
+                </form>
+            </div>
+            <div class="named-entry, form">
+                <form>
+                    <label>
+                        Your full name
+                    </label>
+                    <input type="text" name="name" required="required">
+                    <label>
+                        phone_number
+                    </label>
+                    <input type="number" max="254799999999" min="700000000" required="required">
+                    <label>
+                        Reserve for
+                    </label>
+                    <input type="number" max="2" min="1" value="1">
+                    <input type="submit" value="Am in">
+                </form>
+            </div>
+
+        </form>
+    </div>
+    <div class="footer">
+        <div class="footer_header">Disclaimer</div>
+        Come with your girlfriend at your own risk
+    </div>
+</div>
+<script type="text/javascript" src="../static/index.js"></script>
+</body>
+</html>
